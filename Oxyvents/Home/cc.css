@@ -1,0 +1,89 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    height: 300px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Belgrano', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    text-align: left;
+    height: 100%;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+    url('bg.jpg');
+    width: 100%;
+    background-size: cover;
+    color: white;
+   
+    
+}
+
+
+.navigation ul
+{
+   
+    text-decoration: none;
+
+}
+
+.navigation li
+{
+    display: inline;
+    padding-right: 80px;
+    font-size: 20px;
+}
+
+.navigation
+{
+    box-sizing: border-box;
+    float: right;
+    padding-top: 50px;
+    padding-right: 120px;
+}
+.navigation a
+{
+    text-decoration: none;
+    color: white;
+}
+.navigation a :hover
+{
+    color: rgb(161, 255, 21);
+}
+
+.content
+{
+   text-align: center;
+}
+
+.content h1
+{
+   font-size: 60px;
+}
+
+.content p
+{
+    font-size: 30px;
+    width: 50%;
+    padding-left: 450px;
+}
+.content input
+{
+    font-size: 25px;
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+.content input:hover
+{
+    color:rgb(161, 255, 21);
+}
